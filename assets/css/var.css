@@ -1,0 +1,16 @@
+:root {
+    --whiteColor: #fff;
+    --purpleColor: #4d45b3;
+    --purpleColor2: #403c89;
+    --orangeColor: #ff8562;
+    --blackColor: #251442;
+    --blueColor: #b5dbf8;
+    --redColor: #a33f5f;
+    --redColor2: #dc738b;
+    --blueColor: #56b0ed;
+    --grayColor: #aba8a8;
+    --pinkColor: #f8eeff;
+    --pinkColor2: #dcbcfa;
+    --grayPinkColor: #f4f0fa;
+    --gradient1: linear-gradient(180deg,rgba(236,112,138,1) 0%,rgba(235,96,142,1) 100%)
+}

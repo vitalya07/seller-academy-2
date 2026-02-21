@@ -1,0 +1,111 @@
+.course {
+    padding: 80px 0;
+    position: relative;    
+}
+.course::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 75%;
+    background-color: var(--pinkColor);
+    border-radius: 0 0 100% 0;
+    z-index: -1;
+}
+.course__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.course__information {
+    width: 60%;
+    max-width: 800px;
+}
+.course__course__information-title {
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 120%;
+    color: var(--blackColor);
+    margin-bottom: 30px;
+}
+.course__information-list--item {
+    font-family: 'Gilroy-medium', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 50px;
+}
+.course__information-list--item::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 32px;
+    background-color: #e3baff;
+    border-radius: 100%;
+    z-index: 1;
+}
+.course__information-list--item::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translate(-50%, -50%) rotate(-12deg);
+    width: 30px;
+    height: 30px;  
+    background-image: url('../icons/Done.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+.course__marketpalce {
+    width: 60%;
+    height: auto;
+}
+.course__marketpalce-cyrcle-big {
+    width: 100%;
+    height: 600px;
+    border: 2px solid var(--pinkColor);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.course__marketpalce-cyrcle-small {
+    width: 80%;
+    height: 80%;
+    border: 2px solid var(--pinkColor);
+    border-radius: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.course__marketpalce-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--pinkColor);
+    width: 80%;
+    height: 80%;
+    border-radius: 100%;
+    position: relative;
+}
+.course__marketpalce-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--pinkColor);
+    opacity: .6;
+    border-radius: 100%;
+}

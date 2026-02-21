@@ -1,0 +1,128 @@
+@media (max-width:1280px) {
+    .hero__block {
+        padding-top: 60px;
+    }
+    .hero__main-subtitle {
+        margin-bottom: 15px;
+        max-width: 400px;
+    }
+    .hero__main-title {
+        margin-bottom: 15px;    
+        font-size: 50px;
+    }
+    .hero__main-title::before {
+        width: 435px;
+        top: 95px;
+        height: 15px;
+    }
+    .hero__main-title::after {
+        width: 285px;
+        top: 43px;
+        height: 15px;
+    }
+    .hero__main-postitle {
+        font-size: 20px;
+        max-width: 280px;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 993px) {
+    .header__nav {
+        display: none;
+    }
+    .header__btn {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .hero__warning {
+        left: 57%;
+        z-index: 2;
+    }
+    .hero__phone-procentage {
+        width: 100px;
+        height: 64px;
+    }
+    .hero__phone-img {
+        width: 329px;
+        height: 394px;
+    }
+}
+@media (max-width: 769px) {
+    .header__logo {
+        width: 120px;
+        height: 70px;
+    }
+    .hero__main-subtitle {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .hero__main-title {
+        font-size: 45px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .hero__main-title::after {
+        width: 245px;
+        top: 38px;
+        left: 50px;
+    }
+    .hero__main-title::before {
+        width: 415px;
+        top: 90px;
+        left: 100px;
+    }
+    .hero__main-postitle {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        max-width: 500px;
+    }
+    .hero__block {
+        flex-direction: column;
+        gap: 60px;
+    }
+    .hero__main-btn {
+        margin: 0 auto;
+    }
+    .hero__phone-img {
+        padding-top: 60px;
+        width: 236px;
+        height: auto;
+    }
+    .hero__warning {
+        top: 100%;
+        left: 70%;
+    }
+}
+@media (max-width:556px) {
+    .header__mail {
+        display: none;
+    }
+    .hero__main-title::after {
+        display: none;
+    }
+    .hero__main-title::before {
+        display: none;
+    }
+    .hero__main-title {
+        font-size: 37px;
+    }
+    .hero__main-btn {
+       max-width: 285px;
+       height: 50px;
+    }
+}
+@media (max-width:450px) {
+    .hero__main-subtitle {
+        font-size: 16px;
+    }
+    .hero__main-title {
+        font-size: 30px;
+        text-align: left;
+    }
+    .hero__main-subtitle {
+        font-size: 16px;
+    }
+}

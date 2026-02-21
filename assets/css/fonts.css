@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Gilroy-Black';
+    src: url(../fonts/Gilroy-Black.eot) format(OpenTypet);
+    src: url(../fonts/Gilroy-Black.ttf) format(TrueType);
+    src: url(../fonts/Gilroy-Black.woff);
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(../fonts/Gilroy-Bold.eot) format(OpenTypet);
+    src: url(../fonts/Gilroy-Boldk.ttf) format(TrueType);
+    src: url(../fonts/Gilroy-Bold.woff);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Gilroy-medium';
+    src: url(../fonts/Gilroy-Medium.eot) format(OpenTypet);
+    src: url(../fonts/Gilroy-Medium.ttf) format(TrueType);
+    src: url(../fonts/Gilroy-Medium.woff);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Gilroy-regular';
+    src: url(../fonts/Gilroy-Regular.eot) format(OpenTypet);
+    src: url(../fonts/Gilroy-Regular.ttf) format(TrueType);
+    src: url(../fonts/Gilroy-Regular.woff);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Gilroy-light';
+    src: url(../fonts/Gilroy-Light.eot) format(OpenTypet);
+    src: url(../fonts/Gilroy-Light.ttf) format(TrueType);
+    src: url(../fonts/Gilroy-Light.woff);
+    font-weight: 300;
+}
