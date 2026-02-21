@@ -1,6 +1,7 @@
 .advantages {
     background-color: var(--grayPinkColor);
     position: relative;
+    padding-bottom: 120px;
 }
 .advantages__chert {
     width: 220%;

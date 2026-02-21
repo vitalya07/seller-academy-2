@@ -1,0 +1,166 @@
+.programms {
+    padding: 120px 0;
+    background-image: url('../../assets/img/bg/Bg-3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    background-attachment: fixed;
+}
+.programms__title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.programms__moduls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.programms__moduls-item {
+    max-width: 1040px;
+    width: 100%;
+    border: 2px solid var(--purpleColor);
+    padding: 30px 50px;  
+    background-image: radial-gradient(rgba(255, 255, 255, 1) 78%, rgba(91, 81, 181, 0.2) 99%);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 335px;
+}
+.programms__moduls-item--box {
+    width: 70%;
+    margin: 0 auto;    
+}
+.programms__moduls-item-decors-left {
+    height: 100%;
+    position: absolute;
+    left: 10%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2px;
+}
+.programms__moduls-item-decors--right {
+    gap: 2px;
+    height: 100%;
+    position: absolute;
+    right: 10%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.programms__moduls-item--decor {
+    height: 45%;
+    width: 4px;
+    background-image: linear-gradient(260deg, rgba(255, 255, 255, 0) 0%, rgba(91, 81, 181, 1) 98%);
+}
+.programms__moduls-item--decor-2 {
+    height: 45%;
+    width: 4px;
+    background-image: linear-gradient(260deg, rgba(255, 255, 255, 0) 0%, rgba(91, 81, 181, 1) 98%);
+    transform:rotate(180deg);
+}
+.programms__moduls-item--decor-romb {
+    width: 23px;
+    height: 23px;
+    border: 3px solid var(--purpleColor);
+    background-color: var(--whiteColor);
+    transform: rotate(45deg);
+    border-radius: 5px;
+}
+.programms__moduls-item--head {
+    width: 200px;
+    height: 45px;
+    background-color: var(--purpleColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--whiteColor);
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.programms__moduls-item--title {
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    color: var(--blackColor);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.programms__moduls-item--subtitle {
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--purpleColor3);
+    margin-bottom: 10px;
+}
+.programms__moduls-item--descr {
+    font-family: 'Gilroy-regular', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: var(--blackColor);
+}
+.programms__moduls-bonus {
+    border-width: 2px;
+    border-radius: 5px;
+    background-image: radial-gradient(rgba(91, 81, 181, 1) 77%, rgba(91, 81, 181, 0.2) 99%);
+    border: 3px solid var(--whiteColor);
+    width: 100%;
+    max-width: 1040px;
+    height: 320px;
+    padding: 30px;
+    position: relative;
+}
+.programms__moduls-bonus--box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;      
+}
+.programms__bonus-head {
+    width: 225px;
+    height: 45px;
+    background-color: var(--whiteColor);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gilroy-Black', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--purpleColor3);
+    position: absolute;
+    top: 30px;  
+    left: 0;
+}
+.programms__bonus-title {
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 125%;
+    color: var(--whiteColor);
+    width: 30%;
+}
+.programms__bonus-lis--item {
+    font-family: 'Gilroy-regular', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 120%;
+    color: var(--whiteColor);
+}
