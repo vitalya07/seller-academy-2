@@ -1,0 +1,20 @@
+.certificate {
+    padding: 120px 0;
+}
+.certificate__title {
+    text-align: center;
+}
+.certificate__subtitle {
+    font-family: 'Gilroy-medium', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--blackColor);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.certificate__img {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+}
