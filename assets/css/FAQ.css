@@ -1,0 +1,106 @@
+.FAQ {
+    padding: 120px 0;
+}
+.FAQ__title {
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 120%;
+    color: var(--darkColor);
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    max-width: 170px;
+}
+.FAQ__title::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -7%;
+    width: 120%;
+    height: 15px;
+    background-color: var(--blueColor);
+    opacity: .5;
+    z-index: -1;
+}
+.FAQ__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.FAQ__item {
+   position: relative;    
+   border-top: 1px solid var(--grayColor);  
+   padding: 30px 0;
+   transition: all .4s ease;
+}
+.FAQ__item:last-child {
+    border-bottom: 1px solid var(--grayColor);
+}
+.FAQ__item-box {
+    width: 760px;
+}
+.FAQ__item-question {
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    color: var(--darkColor);
+    max-width: 600px;
+}
+.FAQ__item-answer {
+    font-family: 'Gilroy-regular', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: var(--grayColor);
+    padding: 15px 0;
+    max-height: 0;
+    opacity: 0;
+     transition: all .4s ease;
+}
+.FAQ__item-close {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all .4s ease;
+    transition: all .4s ease;
+}
+.FAQ__item-close::after {
+    content: '';
+    width: 60%;
+    height: 2px;
+    background-color: var(--blackColor);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.FAQ__item-close::before {
+    content: '';
+    width: 60%;
+    height: 2px;
+    background-color: var(--blackColor);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+.FAQ__item-close:hover {
+    background-color: #b5dbf8;    
+}
+.FAQ__item-open {
+    .FAQ__item-close {
+        transform: rotate(45deg);
+    }
+    .FAQ__item-answer {
+        max-height: 65px;
+        opacity: 1;       
+    }
+}

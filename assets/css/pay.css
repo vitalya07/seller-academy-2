@@ -1,0 +1,12 @@
+.pay {
+    padding: 60px;
+    background-color: var(--purpleColor);
+}
+.pay__title {
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    color: var(--whiteColor);
+    text-align: center;
+}
