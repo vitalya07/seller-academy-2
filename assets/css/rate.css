@@ -1,0 +1,106 @@
+.rate {
+    padding: 120px 0;
+}
+.rate__title {
+    font-size: 42px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    position: relative;
+    width: 100%;
+    max-width: 180px;
+}
+.rate__title::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -15%;
+    width: 120%;
+    height: 15px;
+    background-color: var(--blueColor);
+    opacity: .5;
+    z-index: -1;
+}
+.rate__wrapper {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 50px;
+}
+.rate__item {
+    border: 2px solid var(--blackColor);
+    width: 100%;
+    max-width: 320px;  
+    border-radius: 10px;   
+   padding-bottom: 30px;
+}
+.rate__item-box {
+    padding: 30px 20px;
+}
+.rate__item-title {
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    padding: 10px;
+    background-color: #fcf2ff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.rate__item-descr {
+    font-family: 'Gilroy-regular', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--blackColor);
+    margin-bottom: 30px;
+}
+.rate__item-moduls--element {
+    margin-bottom: 30px;
+}
+.rate__item-moduls--title {
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    color: var(--blackColor);
+}
+.rate__item-moduls--descr {
+    font-family: 'Gilroy-regular', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: var(--blackColor);
+}
+.rate__item-moduls--bonus {
+    background-color: #f5f5f5;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.rate__item-bonus--title {
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #4c2d7d;
+}
+.rate__item-bonus--descr {
+    font-family: 'Gilroy-regular', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #4c2d7d;
+}
+.rate__btn {
+    width: 265px;
+    height: 45px;
+    margin: 0 auto;
+}
+.rate__item-price {
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 120%;
+    color: #7f2b99;
+    text-align: center;
+    margin-bottom: 20px;
+}
