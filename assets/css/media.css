@@ -1,4 +1,43 @@
 @media (max-width:1280px) {
+    .course {
+        display: none;
+    }
+    .tutor {
+        display: none;
+    }
+    .advantages {
+        display: none;
+    }
+    .programms {
+        display: none;
+    }
+    .ending {
+        display: none;
+    }
+    .author {
+        display: none;
+    }
+    .outcome {
+        display: none;
+    }
+    .certificate {
+        display: none;
+    }
+    .rate {
+        display: none;
+    }
+    .pay {
+        display: none;
+    }
+    .feedback {
+        display: none;
+    }
+    .FAQ {
+        display: none;
+    }
+    .contacts {
+        display: none;
+    }
     .hero__block {
         padding-top: 60px;
     }
