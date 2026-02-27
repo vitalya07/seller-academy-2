@@ -1,4 +1,57 @@
 @media (max-width:1280px) {
+    .hero__block {
+        padding-top: 60px;
+    }
+    .hero__main-subtitle {
+        margin-bottom: 15px;
+        max-width: 400px;
+    }
+    .hero__main-title {
+        margin-bottom: 15px;    
+        font-size: 50px;
+    }
+    .hero__main-title::before {
+        width: 435px;
+        top: 95px;
+        height: 15px;
+    }
+    .hero__main-title::after {
+        width: 285px;
+        top: 43px;
+        height: 15px;
+    }
+    .hero__main-postitle {
+        font-size: 20px;
+        max-width: 280px;
+        margin-bottom: 40px;
+    }
+    .course__information-list--item {
+        font-size: 18px;
+    }
+    .course__information-list--item::after {
+        width: 22px;
+        height: 22px;
+        left: 13px;
+    }
+    .course__information-list--item::before {
+        width: 26px;
+        height: 26px;
+    }
+    .tutor::before {
+        width: 40%;
+    }
+    .ending__box::before {
+        width: 50%;
+        height: 650px;
+    }
+    .ending__title {
+        font-size: 30px;
+    }
+    .author__star-2 {
+        display: none;
+    }
+}
+@media (max-width: 993px) {
     .course {
         display: none;
     }
@@ -38,34 +91,6 @@
     .contacts {
         display: none;
     }
-    .hero__block {
-        padding-top: 60px;
-    }
-    .hero__main-subtitle {
-        margin-bottom: 15px;
-        max-width: 400px;
-    }
-    .hero__main-title {
-        margin-bottom: 15px;    
-        font-size: 50px;
-    }
-    .hero__main-title::before {
-        width: 435px;
-        top: 95px;
-        height: 15px;
-    }
-    .hero__main-title::after {
-        width: 285px;
-        top: 43px;
-        height: 15px;
-    }
-    .hero__main-postitle {
-        font-size: 20px;
-        max-width: 280px;
-        margin-bottom: 40px;
-    }
-}
-@media (max-width: 993px) {
     .header__nav {
         display: none;
     }
@@ -87,8 +112,51 @@
         width: 329px;
         height: 394px;
     }
+    .about__title {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
 }
 @media (max-width: 769px) {
+      .course {
+        display: none;
+    }
+    .tutor {
+        display: none;
+    }
+    .advantages {
+        display: none;
+    }
+    .programms {
+        display: none;
+    }
+    .ending {
+        display: none;
+    }
+    .author {
+        display: none;
+    }
+    .outcome {
+        display: none;
+    }
+    .certificate {
+        display: none;
+    }
+    .rate {
+        display: none;
+    }
+    .pay {
+        display: none;
+    }
+    .feedback {
+        display: none;
+    }
+    .FAQ {
+        display: none;
+    }
+    .contacts {
+        display: none;
+    }
     .header__logo {
         width: 120px;
         height: 70px;
@@ -136,6 +204,45 @@
     }
 }
 @media (max-width:556px) {
+      .course {
+        display: none;
+    }
+    .tutor {
+        display: none;
+    }
+    .advantages {
+        display: none;
+    }
+    .programms {
+        display: none;
+    }
+    .ending {
+        display: none;
+    }
+    .author {
+        display: none;
+    }
+    .outcome {
+        display: none;
+    }
+    .certificate {
+        display: none;
+    }
+    .rate {
+        display: none;
+    }
+    .pay {
+        display: none;
+    }
+    .feedback {
+        display: none;
+    }
+    .FAQ {
+        display: none;
+    }
+    .contacts {
+        display: none;
+    }
     .header__mail {
         display: none;
     }
@@ -154,6 +261,45 @@
     }
 }
 @media (max-width:450px) {
+      .course {
+        display: none;
+    }
+    .tutor {
+        display: none;
+    }
+    .advantages {
+        display: none;
+    }
+    .programms {
+        display: none;
+    }
+    .ending {
+        display: none;
+    }
+    .author {
+        display: none;
+    }
+    .outcome {
+        display: none;
+    }
+    .certificate {
+        display: none;
+    }
+    .rate {
+        display: none;
+    }
+    .pay {
+        display: none;
+    }
+    .feedback {
+        display: none;
+    }
+    .FAQ {
+        display: none;
+    }
+    .contacts {
+        display: none;
+    }
     .hero__main-subtitle {
         font-size: 16px;
     }
