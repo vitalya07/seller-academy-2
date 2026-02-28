@@ -455,45 +455,6 @@
    
 }
 @media (max-width:556px) {
-    .course {
-        display: none;
-    }
-    .tutor {
-        display: none;
-    }
-    .advantages {
-        display: none;
-    }
-    .programms {
-        display: none;
-    }
-    .ending {
-        display: none;
-    }
-    .author {
-        display: none;
-    }
-    .outcome {
-        display: none;
-    }
-    .certificate {
-        display: none;
-    }
-    .rate {
-        display: none;
-    }
-    .pay {
-        display: none;
-    }
-    .feedback {
-        display: none;
-    }
-    .FAQ {
-        display: none;
-    }
-    .contacts {
-        display: none;
-    }
     .header__mail {
         display: none;
     }
@@ -509,88 +470,92 @@
     .hero__main-btn {
        max-width: 285px;
        height: 50px;
+    }  
+    .course__marketpalce {
+        width: 100%;
     }
-
-     .course {
-        display: none;
+    .course__information {
+        width: 100%;
     }
-    .tutor {
-        display: none;
+    .advantages__wrapper {
+        flex-direction: column;
+        gap: 80px;
     }
-    .advantages {
-        display: none;
+    .advantages__list {
+        width: 100%;
     }
-    .programms {
-        display: none;
+    .advantages__left {
+        width: 100%;
     }
-    .ending {
-        display: none;
+    .advantages__btn {
+        width: 100%;
+        max-width: 100%;
     }
-    .author {
-        display: none;
+    .programms__moduls-item--title {
+        font-size: 22px;
     }
-    .outcome {
-        display: none;
+    .programms__moduls-item--subtitle {
+        font-size: 18px;
     }
-    .certificate {
-        display: none;
+    .programms__moduls-item--descr {
+        font-size: 14px;
     }
-    .rate {
-        display: none;
+    .programms__bonus-head {
+        top: 5px;
+    }
+    .programms__bonus-title {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .programms__btn {
+        width: 100%;
+        max-width: 100%;
+    }
+    .author__subtitle {
+        font-size: 18px;
+    }
+    .author__photo {
+        width: 80%;
+    }
+    .author__title {
+        font-size: 22px;
+    }
+    .author__about-item {
+        width: 90%;
+        margin-bottom: 80px;
+    }
+    .author__about-item:last-child {
+        margin-bottom: 0;
     }
     .pay {
-        display: none;
+        padding: 30px 0
     }
-    .feedback {
-        display: none;
+    .pay__title {
+        font-size: 22px;
     }
-    .FAQ {
-        display: none;
+    .feedback__title {
+        font-size: 30px;
+        max-width: 320px;
     }
-    .contacts {
-        display: none;
+    .feedback__title::before {
+        width: 50%;
+    }
+    .FAQ__title {
+        font-size: 30px;
+        max-width: 150px;
+    }
+    .FAQ__title::before {
+        width: 100%;
+        left: 0;
+    }
+    .FAQ__item-question {
+        max-width: 400px;
+    }    
+    .footer {
+        padding: 60px 0;
     }
 }
 @media (max-width:450px) {
-      .course {
-        display: none;
-    }
-    .tutor {
-        display: none;
-    }
-    .advantages {
-        display: none;
-    }
-    .programms {
-        display: none;
-    }
-    .ending {
-        display: none;
-    }
-    .author {
-        display: none;
-    }
-    .outcome {
-        display: none;
-    }
-    .certificate {
-        display: none;
-    }
-    .rate {
-        display: none;
-    }
-    .pay {
-        display: none;
-    }
-    .feedback {
-        display: none;
-    }
-    .FAQ {
-        display: none;
-    }
-    .contacts {
-        display: none;
-    }
     .hero__main-subtitle {
         font-size: 16px;
     }
@@ -600,5 +565,46 @@
     }
     .hero__main-subtitle {
         font-size: 16px;
+    }
+    .about__bg {
+        padding: 15px 0;
+    }
+
+   
+    .tutor {
+        display: none;
+    }
+    .advantages {
+        display: none;
+    }
+    .programms {
+        display: none;
+    }
+    .ending {
+        display: none;
+    }
+    .author {
+        display: none;
+    }
+    .outcome {
+        display: none;
+    }
+    .certificate {
+        display: none;
+    }
+    .rate {
+        display: none;
+    }
+    .pay {
+        display: none;
+    }
+    .feedback {
+        display: none;
+    }
+    .FAQ {
+        display: none;
+    }
+    .contacts {
+        display: none;
     }
 }
