@@ -569,6 +569,22 @@
     .about__bg {
         padding: 15px 0;
     }
+    .about__title {
+        text-align: left;
+    }
+    .about__descr {
+        text-align: left;
+    }
+    .about__vacancy-item--title {
+        font-size: 12px;
+    }
+    .about__vacancy-item--salary {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .about__vacancy {
+        margin-left: 0;
+    }
     .tutor__lide-info {
         padding: 15px;
     }
@@ -604,6 +620,13 @@
     }
     .programms__bonus-title {
         font-size: 18px;
+    }
+    .programms__bonus-head {
+        height: 25px;
+        font-size: 16px;
+    }
+    .programms__moduls-bonus--box {
+        margin-top: 10px;
     }
     .ending__title {
         font-size: 22px;
@@ -663,23 +686,7 @@
         display: none;
     }
 }
-@media (max-width: 390px) {
-    .about__title {
-        text-align: left;
-    }
-    .about__descr {
-        text-align: left;
-    }
-    .about__vacancy-item--title {
-        font-size: 12px;
-    }
-    .about__vacancy-item--salary {
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
-    .about__vacancy {
-        margin-left: 0;
-    }
+@media (max-width: 390px) {    
     .course {
         padding: 30px 0;
     }
@@ -723,13 +730,7 @@
     .programms__moduls-item--box {
         width: 100%;
     }
-    .programms__bonus-head {
-        height: 25px;
-        font-size: 16px;
-    }
-    .programms__moduls-bonus--box {
-        margin-top: 10px;
-    }
+    
     .programms__bonus-title {
         font-size: 16px;
     }
