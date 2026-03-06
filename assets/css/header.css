@@ -8,8 +8,8 @@
     justify-content: space-between;
 }
 .header__logo {
-    width: 150px;
-    height: 86px;
+    width: 180px;
+    height: auto;
 }
 .custom-logo {
     width: 100%;
