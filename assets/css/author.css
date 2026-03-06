@@ -113,6 +113,12 @@
     width: 30px;
     height: 30px;
 }
-.author__photo > picture > img {
+.author__photo {
+    width: 30%;
+    height: auto;
+}
+.author__photo > img {
     border-radius: 10px;
+    width: 100%;
+    height: 100%;
 }
