@@ -277,7 +277,6 @@
 @media (max-width: 769px) {   
     .header__logo {
         width: 120px;
-        height: 70px;
     }
     .hero__main-subtitle {
         margin: 0 auto;
@@ -554,6 +553,26 @@
     .footer {
         padding: 60px 0;
     }
+    .message-feedback {
+        width: 30px;
+        height: 30px;
+        bottom: 5%;
+        right: 2%;
+    }
+    .message-feedback > img {
+        width: 15px;
+        height: 15px;       
+    }
+    .arrow-origin {
+        width: 30px;
+        height: 30px;
+         bottom: 5%;
+        left: 2%;
+    }
+    .arrow-origin > img {
+        width: 15px;
+        height: 15px;
+    }
 }
 @media (max-width:450px) {
     .hero__main-subtitle {
@@ -796,57 +815,5 @@
         width: 100%;
         left: 0;
         height: 8px;
-    } 
-    
-    
-}
-@media (max-width: 360px) {
-    /* .hero {
-        display: none;
-    }
-    .about {
-        display: none;
-    }
-    .course {
-        display: none;
-    }
-    .tutor {
-        display: none;
-    }
-    .advantages {
-        display: none;
-    }
-    .programs {
-        display: none;
-    }
-    .ending {
-        display: none;
-    }
-    .author {
-        display: none;
-    }
-    .outcome {
-        display: none;
-    }
-    .certificate {
-        display: none;
-    }
-    .rate {
-        display: none;
-    }
-    .pay {
-        display: none;
-    }
-    .feedback {
-        display: none;
-    }
-    .FAQ {
-        display: none;
-    }
-    .contacts {
-        display: none;
-    }
-    .footer {
-        display: none;
-    } */
+    }    
 }

@@ -9,7 +9,7 @@
     display: flex;
     align-items: start;
     justify-content: center;
-    transition: all .4s ease;
+    transition: all .2s ease;
 }
 .mobile__menu-box {
     width: 50%;
