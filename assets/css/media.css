@@ -245,12 +245,12 @@
     .certificate__img {
         max-width: 565px;
     }
-    .certificate__img > picture {
+    .certificate__img > img {
         display: block;
         width: 100%;
         height: 100%;
     }
-    .certificate__img > picture > img {
+    .certificate__img > img {
         display: block;
         width: 100%;
         height: 100%;
