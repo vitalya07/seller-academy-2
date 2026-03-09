@@ -51,5 +51,13 @@ document.addEventListener('DOMContentLoaded', ()=> {
             })
         }
     //FAQ конец
+    const rateItem = document.querySelectorAll('.rate__item-title');
+    const colors = ['#fcf2ff', '#fbedff', '#f3ccff'];
+
+    rateItem.forEach((item, index) => {
+        if (colors[index]) {
+            item.style.backgroundColor = colors[index];
+        }
+    });
 });
    
